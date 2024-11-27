@@ -4,9 +4,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script>
-        const GITHUB_TOKEN = 'YOUR_GITHUB_PERSONAL_ACCESS_TOKEN';
-        const REPO_OWNER = 'YOUR_GITHUB_USERNAME';
-        const REPO_NAME = 'YOUR_REPOSITORY_NAME';
+        const GITHUB_TOKEN = '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';
+        const REPO_OWNER = 'masterbullet';
+        const REPO_NAME = 'database';
 
         async function fetchFiles() {
             const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents`, {
